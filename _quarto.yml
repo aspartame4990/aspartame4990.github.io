@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Aspartame 的博客"
+  site-url: "https://aspartame4990.github.io"
+  navbar:
+    right:
+      - text: 首页
+        href: index.qmd
+      - text: 关于
+        href: about.qmd
+  comments:
+    giscus:
+      repo: "aspartame4990/aspartame4990.github.io"
+      mapping: pathname
+      reactions-enabled: true
+      loading: lazy
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    html-math-method: katex
+    css: styles.css

@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "关于",
+    "section": "",
+    "text": "你好，我是 [你的名字]。\n我是谁： 我是一个正在持续学习与实践的开发者，喜欢把问题拆解、验证并沉淀成可复用的方法。\n我会写什么主题： 这个博客主要会记录编程、工具链、工程实践、效率方法，以及一些技术阅读笔记。\n联系方式占位符： - 邮箱：your-email@example.com - 微信/公众号：你的占位信息\nGitHub 链接占位符： - GitHub：https://github.com/your-username"
+  },
+  {
+    "objectID": "posts/2026-03-11-first-post.html",
+    "href": "posts/2026-03-11-first-post.html",
+    "title": "第一篇博客文章",
+    "section": "",
+    "text": "这是我的第一篇示例文章，用来确认博客结构、中文内容和数学排版都能正常工作。\n这里有一个行内公式：E = mc^2。\n下面是一个块级公式：\n\n\\int_{0}^{1} x^2\\,dx = \\frac{1}{3}\n\n再给出一个矩阵例子：\n\nA = \\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 1 & 4 \\\\\n5 & 6 & 0\n\\end{bmatrix}\n\n这个博客支持 LaTeX 数学公式，可以用于整理推导过程和数学表达。"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "首页",
+    "section": "",
+    "text": "欢迎来到我的技术博客。这里会持续记录学习笔记、实践总结和一些值得沉淀的想法。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n第一篇博客文章\n\n\n\n博客搭建\n\n数学\n\n示例\n\n\n\n用于验证博客基础功能与 LaTeX 数学公式支持。\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\nNo matching items"
+  }
+]

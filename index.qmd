@@ -1,0 +1,12 @@
+---
+title: "首页"
+listing:
+  contents: posts
+  sort: "date desc"
+  categories: true
+  type: default
+  sort-ui: false
+  filter-ui: false
+---
+
+欢迎来到我的技术博客。这里会持续记录学习笔记、实践总结和一些值得沉淀的想法。
