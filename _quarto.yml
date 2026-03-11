@@ -14,9 +14,15 @@ website:
   comments:
     giscus:
       repo: "aspartame4990/aspartame4990.github.io"
-      mapping: pathname
+      repo-id: "R_kgDORkpg1w"
+      category: "Used for Giscus"
+      category-id: "DIC_kwDORkpg184C4MGl"
+      mapping: "pathname"
       reactions-enabled: true
-      loading: lazy
+      loading: "lazy"
+      input-position: "bottom"
+      theme: "preferred_color_scheme"
+      language: "zh-CN"
 
 format:
   html:
