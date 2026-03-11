@@ -1,3 +1,6 @@
+_site/
+docs/
+
 # macOS
 .DS_Store
 

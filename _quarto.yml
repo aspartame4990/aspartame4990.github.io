@@ -1,16 +1,13 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 
 website:
-  title: "Aspartame 的博客"
+  title: "阿斯巴甜4990"
   site-url: "https://aspartame4990.github.io"
-  navbar:
-    right:
-      - text: 首页
-        href: index.qmd
-      - text: 关于
-        href: about.qmd
+  # search: true
+  # navbar:
+  #   right: []
   comments:
     giscus:
       repo: "aspartame4990/aspartame4990.github.io"
@@ -30,3 +27,6 @@ format:
     toc: true
     html-math-method: katex
     css: styles.css
+
+# editor:
+#   render-on-save: true

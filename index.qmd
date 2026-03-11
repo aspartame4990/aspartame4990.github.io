@@ -1,12 +1,11 @@
 ---
-title: "首页"
+comments: false
 listing:
   contents: posts
-  sort: "date desc"
-  categories: true
+  sort: "date asc"
+  categories: false
   type: default
   sort-ui: false
   filter-ui: false
 ---
-
-欢迎来到我的技术博客。这里会持续记录学习笔记、实践总结和一些值得沉淀的想法。
+![](./images/avatar.jpg){width=20% fig-align="center"}
