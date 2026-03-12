@@ -1,11 +1,12 @@
 ---
+title: "MySQL学习心得"
+description: " "
 comments: false
 listing:
-  contents: posts/*.qmd
+  contents: Collection-Mysql/*.qmd
   sort: "date asc"
   categories: false
   type: default
   sort-ui: false
   filter-ui: false
 ---
-![](./images/avatar.jpg){width=20% fig-align="center"}
