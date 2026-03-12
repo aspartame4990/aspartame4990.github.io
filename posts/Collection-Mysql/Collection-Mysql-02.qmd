@@ -207,9 +207,16 @@ $$ T_x \ge T_y \quad \text{总是成立}$$
 7. 在 $T_a$ 和 $T_b$ 都提交后，再查询`y`的值，发现是 $30$，说明链表的头部是由 `TRX_ID` 更小的 $T_a$ 写入的, 这就印证了`undo log`里的`TRX_ID`并非严格单调递减！
 ![](../../images/003.png){width=60% fig-align="left"}
 
-总的来说：
+### 5. 总结
 
-- `TRX_ID`描述的是事务第一次写入的顺序
-- `版本链的先后`描述的是事务拿到`写锁`的顺序
+- `TRX_ID`描述的是事务第一次写入的顺序, 如果 $T_A$ 的`TRX_ID`大于 $T_B$ 的`TRX_ID`, 说明 $T_A$ 的第一次写入晚于 $T_B$ 的第一次写入。 
+   $$TRX\_ID(T_A) > TRX\_ID(T_B) \implies T_{first\_write}(T_A) > T_{first\_write}(T_B)$$
 
-这2个顺序不一定一致
+- `版本链的先后`描述的是事务拿到`写锁`的顺序，如果在版本链上，$T_A$ 比 $T_B$ 更靠近头节点，说明对于这一行的数据来说， $T_A$ 获取写锁的时间晚于 $T_B$ 
+   $$row \quad \dots \to \fbox{数据, $T_A$} \to \fbox{数据, $T_B$} \implies T_{lock}(T_A, row) > T_{lock}(T_B, row)$$
+
+这2个顺序不一定相同。
+
+
+
+> 欢迎感兴趣的朋友批评指正!
